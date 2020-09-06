@@ -1,0 +1,983 @@
+$primary-btn:#0088F3;
+$footerColor:#00355E;
+$secondary-font-color:#6D7688;
+$primary-font-color:#0B2451;
+@font-face {
+   font-family: Gilroy-Medium;
+   src: url('../assets/fonts/gilory-font/Gilroy-Medium.ttf');
+}
+
+@font-face {
+   font-family: Gilroy-Bold;
+   src: url('../assets/fonts/gilory-font/Gilroy-Bold.ttf');
+}
+
+@font-face {
+   font-family: Gilroy-Regular;
+   src: url('../assets/fonts/gilory-font/Gilroy-Regular.ttf');
+}
+ body{
+    font-family: Gilroy-Medium;
+ }
+h1,h2,h3,h4,h5,h6{
+   color: $primary-font-color;
+}
+
+.navbar-light {
+	.navbar-nav {
+		.nav-link {
+			color: black;
+        }
+        .nav-link:hover{
+			color: black;
+		}
+	}
+}
+navbar{
+   .dropdown-menu{
+      border:none !important;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+
+
+   }
+   li{
+      
+    font-size: 19px;
+      .btn{
+            background-color: $primary-btn;
+            color: white;
+            height: 37px;
+            
+
+      }
+      .btn:hover{
+          color:white;
+      }
+
+        
+   }
+}
+
+footer{
+background-color: $footerColor;
+ 
+
+
+   .footer-links{
+      li{
+         list-style: none;
+      }
+      a{
+         text-decoration: none;
+         color: white;
+      }
+   }
+  
+   .mobile{
+      outline: none;
+      width:120px;
+      height:36px;
+      background-color: white;
+         p{
+         font-size: 10px;
+         }
+    
+           .apple{
+              width: 30px;
+              height: 20px;
+            }
+        
+
+   
+     }
+
+.footer-end{
+   ul{
+      overflow: hidden;
+   }
+  li{
+      list-style: none;
+      float: left;
+         .icons{
+         color: white;
+         font-size: 20px;
+         padding: 10px;
+         }
+   }
+}
+
+.pay{
+   ul{
+      overflow: hidden;
+   }
+   li{
+     list-style: none;
+     margin: 5px;
+     background-color: white;
+     width: 26px;
+     height: 20px;
+     float: left;
+     
+     
+   }
+   
+}
+
+
+
+
+
+}
+.header{
+      position: relative;
+   .booking{
+      background-color:rgba(255, 255, 255, 0.8);
+      color:#0B2451;
+      width: 30%;
+      height: 70%;
+      position: absolute;
+      top: 80px;
+      left: 130px;
+      z-index: 1;
+      .booking-icons{
+       display: flex;
+       
+       .book-icon{
+            margin: 10px;
+            color: black;
+               .bus{
+                  padding-top: 10px;
+               }
+               .man{
+                  height: 30px;
+               
+            }
+
+         }
+      }
+   #content-desktop {display: block;}
+   #content-mob {display: none;}
+   
+   }
+   
+   @media screen and (max-width: 1000px) {
+   
+   #content-desktop {display: none;}
+   #content-mob{
+      display: block;
+      width: 30%;
+      height: 70%;
+      position: absolute;
+      top: 20%;
+      left: 40%;
+      z-index: 1;
+   }
+   
+   }
+   
+      .input-icons {
+         i {
+            position: absolute;
+         }
+      }
+      .icon {
+         padding-top: 10px;
+         min-width: 30%;
+         padding-left: 5px;
+         color: black;
+      }
+      .input-field {
+         width: 50%;
+         float: left;
+         margin-bottom: 15px;
+      }
+      
+   }
+
+
+.top-des{
+   .card{
+      position: relative;
+      text-align: center;
+      color: white;
+      margin: 10px;
+      .centered{
+         
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-weight: bold;
+         }
+         a{
+             color: white;
+         }
+         a:hover{
+            color: white;
+        }
+   }
+   .des-btn{
+      margin-top: 50px;
+      width: 500px;
+      
+      
+   }
+
+}
+
+.subscribe{
+   height: 300px;
+    input{
+      
+         border:none;
+         background: transparent;
+         width: 300px;
+         outline: none;
+     
+    }
+  
+    button{
+      border:none;
+      background: transparent;
+      color: $primary-btn;
+      outline: none;
+    }
+    hr{
+       width: 400px;
+       border-top: 1px solid black;
+    }
+    h6{
+     color:#0B2451 ; 
+     font-size: 24px;
+    }
+    span{
+       color: $primary-btn;
+    }
+    a{
+       text-decoration: none;
+    }
+}
+
+.features{
+   padding-top: 30px;
+  
+      
+      .feature{
+         text-align: center;
+        
+     
+         img{
+          
+              background-color: $primary-btn;
+              padding: 10px;
+              margin-bottom: 10px;
+              border-radius: 50%;
+              width: 50px;
+              
+              
+               
+         }
+         
+      }
+	
+}
+
+.top-categories{
+   h3{
+      color:#0B2451 ;
+   }
+  .col-lg{
+     border: 1px solid #004D8A;
+     padding: 5px;
+     margin: 5px;
+     
+     a{
+        text-decoration: none;
+        color: #0B2451;
+     }
+    
+  }
+  .col-lg:hover{
+   background-color: #0B2451;
+   a{
+      color: white;
+   }
+}
+}
+
+
+.local-expert{
+   background-color: #F6B756;
+   height: 200px;
+   p{
+      color: #0B2451;
+   }
+   h5{
+     color: #0B2451;
+   }
+   button{
+      background-color: white;
+      a{
+         text-decoration: none;
+         color: #6D7688;
+
+         
+      }
+   }
+}
+
+
+.experiences{
+   background-color: #F8F8F8;
+   .card{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+   }
+   .arrow{
+      background-color:white;
+      margin: 10px;
+      border: solid 1px #B7B7B7;
+      text-align: center;
+      justify-content: end;
+      height: 35px;
+      width: 35px;
+ 
+      
+      img{
+            width: 20px;
+            height: 20px;
+      }
+   }
+   .card-icons{
+    padding-bottom: 10px;
+    padding-right: 5px;
+
+   }
+
+   i{
+      color: yellow;
+   }
+   span{
+      color: #0088F3;
+      font-weight: bold;
+   }
+     .arrow-l{
+      padding-bottom: 10px;
+   }
+   a{
+      text-decoration: none;
+   }
+}
+
+
+.top-tours{
+   background-color: #F8F8F8;
+   .arrow{
+      background-color:white;
+      margin: 10px;
+      border: solid 1px #B7B7B7;
+      text-align: center;
+      justify-content: end;
+      height: 35px;
+      width: 35px;
+
+     }
+      
+      
+   
+   .card-icons{
+    padding-bottom: 10px;
+    padding-right: 5px;
+   }
+
+   i{
+      color: yellow;
+   }
+   span{
+      color: #0088F3;
+      font-weight: bold;
+   }
+     .arrow-l{
+      padding-bottom: 10px;
+   }
+   a{
+      text-decoration: none;
+   }
+}
+
+.guides{
+   position: relative;
+   span{
+      color: $primary-btn;
+      font-weight: bold;
+   }
+   i{
+      color: yellow;
+   }
+   .right{
+      position: absolute;
+      left:900px;
+   }
+}
+
+
+.happy-clients{
+   i{
+      color: yellow;
+      margin-left: 3px;
+      width: 10%;
+      height: 10%;
+   }
+   .col-sm{
+      margin: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         .qoute{
+            width: 10%;
+            height: 10%;
+         }
+
+   }
+
+   img{
+      border-radius: 50%;
+      width: 50%;
+      height: 50%;
+   }
+   .client{
+      p{
+         margin-bottom: 0px !important;
+         margin-top: 20px;
+         font-size: 1.5vw;
+        }
+   }
+   }
+
+   // about us //
+
+   .aboutus-header{
+      position: relative;
+         img{
+            width: 100%;
+            height: auto;
+         }
+         h4{
+         
+            font-family: Gilroy;
+            font-size: 50px;
+            color: white;
+            }
+      .overlay{
+         position: absolute;
+         background-color: rgba(0, 0, 0, 0.2);
+         top: 0px;
+         bottom: 0px;
+         left: 0px;
+         right: 0px;
+         height: 100%;
+         width: 100%;
+      }
+   }
+
+   .whoweare{
+      .people{
+         background-color: #6D76881A;
+         border:solid  1px #707070;
+         border-radius: 5px;
+         height: auto;
+      }
+      .card{
+         margin: 10px;
+      }
+      
+   }
+   
+// contact us //
+
+
+.contactus-header{
+   position: relative;
+   height: 450px;
+     
+      h4{
+      
+         font-family: Gilroy;
+         color: white;
+         }
+   .overlay{
+      position: absolute;
+      background-color:#000000E0;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      height: 100%;
+      width: 100%;
+   }
+}
+
+
+.customer-service{
+    .btn{
+       width: 45%;
+      margin:5px ;
+     }
+     h3 , p{
+        color: #0B2451;
+     }
+     
+}
+
+
+.info{
+   overflow: hidden;
+
+
+.info-details{
+
+   margin-bottom: 300px;
+   margin-top: 100px;
+}
+   
+  .detail-img{
+     background-color: #707070;
+     width: 70%;
+     
+     
+   }
+   .detail-contant{
+      width: 20%;
+      
+   }
+   h6{
+    color: #0B2451;
+    font-size: 23px;
+    font-family: Gilroy ;
+     margin-bottom: 20px;
+   }
+  p{
+   margin-bottom: 20px;
+  }
+}
+
+
+//join us//
+
+.vendor{
+   h3 , p {
+      color: #0B2451;
+   }
+   .vendor-img{
+      img{
+         height: 500px;
+      }
+   }
+   
+}
+
+.how-it-work{
+   p{
+      color:$secondary-font-color;
+     }
+     h3 , h6{
+       color: $primary-font-color;
+     }
+  .work{
+
+     .num-info{
+      margin-bottom: 5px;
+     }
+
+
+
+   .circle {
+      &.small {
+         border: 1px solid $primary-btn;
+         border-radius: 50%;
+         width: 50px;
+         height: 50px;
+         margin-top: 5px;
+         
+      }
+     
+     
+      h1 {
+         text-align: center;
+         font-family: Times, serif;
+         font-weight: 800;
+         font-size: 24px;
+         color:$primary-btn;
+         display: block;
+         margin-top: 10px;
+      }
+   }
+   
+    
+    
+  }
+
+}
+
+.video{
+   iframe{
+      width: 100%;
+   }
+}
+
+.reasons{
+  
+      .reason{
+         border: 1px solid lightgray;
+         border-radius: 5px;
+         padding: 10px;
+         height: 300px;
+         margin: 5px;
+
+         img{
+            width: 100px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+         }
+      }
+      h6 ,h3{
+         color: $primary-font-color;
+         margin-bottom: 20px;
+      }
+      p{
+         color: $secondary-font-color;
+      }
+
+}
+
+// city info//
+
+.aswan , .types , .services , .city-map , .about-aswan
+{
+   h3 , h6 , h4 {
+      color: $primary-font-color;
+   }
+   p{
+      color: $secondary-font-color;
+   }
+}
+
+// activities //
+ .visit{
+     i{
+      color: yellow;
+     }
+     p{
+        margin-bottom: 0px !important;
+     }
+   .container{
+      border: solid 1px lightgray;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      }
+ }
+
+ $blue :#151c22;
+ $white :#fff;
+ $boxShadow:0px 5px 20px #3B3B3B28;
+ $gray :#6D7688;
+ $dark: #0B2451;
+ $light-blue:#0088F3;
+ main {
+     .half-star {
+         clip: rect(0px, 9px, 18px, 0px);
+         position: absolute;
+         margin-top: 3px;
+         width: 6% !important;
+     }
+     .sixth-section {
+      .arrows{
+         
+         
+         img{
+               width: 35px;
+               height: 35px;
+               padding: 5px;
+               background-color:white;
+               border: solid 1px $primary-btn;
+               text-align: center;
+               justify-content: end;
+        
+      
+         }
+      }
+         width: 100%;
+         margin-top: 40px;
+         .cards-container {
+             p {
+                 padding: 0;
+                 margin: 0;
+                 color: $gray;
+             }
+             .card {
+               box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
+
+                 margin:20px;
+                 .half-star {
+                     margin-top: 6px;
+                 }
+                 p {
+                     img {
+                         width: 7%;
+                         margin-right: 2%;
+                     }
+                     img:last-child {
+                         width: 10%;
+                         margin-right: 2%;
+                     }
+                 }
+                 .card-title {
+                     font-size: 18px;
+                     font-family: Gilroy-Medium;
+                     margin-bottom: 9%;
+                     color: $dark
+                 }
+                 p:last-of-type {
+                     img {
+                         width: 7%;
+                     }
+                     span {
+                         float: right;
+                         .num {
+                             color: $light-blue;
+                         }
+                     }
+                 }
+                 div:last-child {
+                     .load {
+                         float: right;
+                         color: #FF5533 !important;
+                     }
+                     color:$gray;
+                 }
+             }
+         }
+     }
+       }
+
+.top-cities{
+   
+      h4{
+         color:#0B2451 ;
+      }
+     .col{
+        border: 1px solid #004D8A;
+        padding: 5px;
+        margin: 5px;
+        color: #0B2451;
+      }
+      .col:hover{
+         border: 1px solid #004D8A;
+         background-color: $primary-font-color;
+         color:white;
+         transition: 0.3s;
+       }
+}
+
+
+// news //
+
+.news{
+   .ninth-section {
+      width: 100%;
+      margin-top: 30px;
+      img {
+          margin: 15px;
+      }
+      a {
+          color: $dark;
+          text-decoration: none;
+          border: 2px solid $light-blue;
+          padding: 5px 10px;
+          margin: 5px;
+      }
+      p {
+          width: 55%;
+          text-align: center;
+      }
+      p a:first-of-type {
+          background-color: $light-blue !important;
+          color: $white;
+      }
+      a:active {
+          background-color: $light-blue;
+          color: $white;
+      }
+      a:visited {
+          background-color: $light-blue;
+      }
+      div {
+          text-align: right;
+          float: right;
+          border: 2px solid $light-blue;
+          border-radius: 50%;
+          padding: 30px;
+          a {
+              border: 0;
+          }
+          a:active {
+              background-color: #fff;
+          }
+      }
+  }
+  
+   .new{
+      margin-bottom: 15px;
+   }
+   h6{
+      color: $primary-font-color;
+   }
+   p{
+      color: $secondary-font-color;
+   }
+   pre{
+      color: $secondary-font-color;
+   }
+      hr{
+         width: 350px;
+         margin: 10px !important;
+  
+      }
+      ul{
+         a{
+            text-decoration: none;
+         }
+         span{
+            color: $primary-font-color;
+            font-weight: 600;
+         }
+         
+      }
+   
+   
+
+
+}
+
+
+// credit-card // 
+.credit-card{
+   h1,h2,h3,h4,h5,h6{
+      color: $primary-font-color;
+   }
+   
+   .bill-info{
+      margin: 10px;
+   }
+   .bill-card{
+      p{
+         margin-block-start: 0px !important;
+         margin-block-end: 0px !important;
+         
+      }
+      .contact{
+         pre{
+            padding: 10px;
+            color: $primary-font-color;
+            font-size: 20px;
+         }
+         span{
+            color: $secondary-font-color;
+            font-size: 18px;
+         }
+         border: solid 1px lightgray;
+         margin: 5px;
+      }
+      
+   }
+}
+
+//credit card 1//
+.credit-card1{
+   h1,h2,h3,h4,h5,h6 , label , p{
+      color: $primary-font-color;
+   }
+}
+
+//privacy//
+.privacy{
+   margin-bottom: 200px;
+   margin-top: 100px;
+   p{
+      color: $secondary-font-color;
+   }
+   h1,h2,h3,h4,h5,h6{
+      color: $primary-font-color;
+   }
+}
+
+//new-story//
+.news-story{
+   p , pre{
+      color: $secondary-font-color;
+
+   }
+  a{
+     text-decoration: none;
+     display: grid;
+     margin: 10px;
+  }
+  li{
+     list-style: none;
+  }
+  .more{
+     margin-top: 100px;
+     margin-bottom: 100px;
+  }
+}
+
+//about us// 
+.whatwedo , .whoweare{
+   p{
+      font-size: 23px;
+   }
+   @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      p {
+        font-size: 18px;
+      }
+    }
+
+}
+
+
+//contactus// 
+.info{
+   span{
+      font-size: 18px;
+      color:$secondary-font-color;
+   }
+   pre{
+     color: $primary-font-color;
+      font-size: 18px;
+      font-family: gilory md;
+   }
+    .customer-service{
+      p{
+         font-size: 23px;
+      }
+      @media only screen and (max-width: 768px) {
+         /* For mobile phones: */
+         p , h3{
+           font-size: 18px;
+         }
+       }
+    }
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
